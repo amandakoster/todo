@@ -1,4 +1,5 @@
-# Setup for Development
+Hello!
+
 Clone this repo to get started:
 ```
 git clone https://github.com/amandakoster/todo.git
