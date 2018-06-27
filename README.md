@@ -15,3 +15,7 @@ yarn install
 
 # Runs the app in development mode
 yarn start
+
+```
+
+The app is deployed with Firebase here: [a link] (https://todo-392e9.firebaseapp.com/)
