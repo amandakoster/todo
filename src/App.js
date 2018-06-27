@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ToDoApp from "./ToDoApp";
-import  code  from "./"
 import "./App.css";
 
 class App extends Component {
