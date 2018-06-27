@@ -1,7 +1,4 @@
 # Setup for Development
-
-## 1. Dashboard Setup
-
 Clone this repo to get started:
 ```
 git clone https://github.com/amandakoster/todo.git
@@ -18,4 +15,4 @@ yarn start
 
 ```
 
-The app is deployed with Firebase here: [a link] (https://todo-392e9.firebaseapp.com/)
+The app is deployed with Firebase here: (https://todo-392e9.firebaseapp.com/)
