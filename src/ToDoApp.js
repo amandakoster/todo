@@ -84,7 +84,7 @@ class ToDoApp extends React.Component {
           todos={this.state.data}
           remove={this.handleRemove.bind(this)}
         />
-        <a href="https://github.com/amandakoster/todo">link to repo</a>
+        <p><a href="https://github.com/amandakoster/todo">link to repo</a></p>
       </div>
     );
   }
