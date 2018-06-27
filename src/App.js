@@ -5,7 +5,7 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div style={{textAlign: "center", margin: "10%"}}>
+      <div style={{ marginLeft: "20%", marginRight: "20%", marginTop:"10%", padding: "2%", border: "3px dotted #7EC0EE", alignContent: "center" }}>
         <ToDoApp />
       </div>
     );

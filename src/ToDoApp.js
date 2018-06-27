@@ -25,7 +25,7 @@ const ToDoItemList = ({ todos, remove }) => {
   let list = todos.map(todo => {
     return <ToDoItem todo={todo} key={todo.id} remove={remove} />;
   });
-  return <ul>{list}</ul>;
+  return <ul style={{ padding: 0 }}>{list}</ul>;
 };
 
 const ToDoItemForm = ({ todoAdd }) => {
@@ -39,6 +39,7 @@ const ToDoItemForm = ({ todoAdd }) => {
         }}
       />
       <button
+        type="submit"
         onClick={() => {
           todoAdd(input.value);
           input.value = "";
@@ -75,7 +76,7 @@ class ToDoApp extends React.Component {
     return (
       <div>
         <Title />
-        <ToDoItemForm todoAdd={this.todoAdd.bind(this)} />
+        <ToDoItemForm onKeyDown={this.onEnterPress} todoAdd={this.todoAdd.bind(this)} />
         <p>
           You have {this.state.data.length} todo&#39;s. Click each one to delete
           it.
